@@ -12,6 +12,8 @@
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!--Locomotice scroll css-->
+        <link rel="stylesheet" href="scroll.css">
         <!-- Bootstrap link-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
         <!-- Core theme CSS (includes Bootstrap)-->
@@ -246,5 +248,16 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        
+         <!--Locomotive JavaScript cdn-->
+         <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+
+        <script>
+            const scroll = new LocomotiveScroll({
+              el: document.querySelector('#main'),
+              smooth: true,
+            })
+        </script>
+
     </body>
 </html>
